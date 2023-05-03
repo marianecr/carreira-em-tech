@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(head_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+}
+
+section#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100vh;
+}
+
+span {
+  color: #191970;
+}
+
+a,
+h1,
+h3 {
+  color: #15f8f8;
+}
+
+h1,
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2.5rem;
+}
+
+button,
+input {
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+button {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #08e98f;
+}
+
+.secondary {
+  background-color: #c70c0c;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/*========== RESPONSIVE ==========*/
+
+@media (max-width: 375px) {
+  .buttons {
+    display: grid;
+  }
+}
